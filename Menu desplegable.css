@@ -1,0 +1,163 @@
+
+.center img {
+    margin: auto;
+    display: block;
+	padding: 50px;
+	 
+}
+body {
+    background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: 2000px 800px;;
+    
+    
+}
+/* PROPIEDADES GENERALES */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	
+	
+}
+
+#menu {
+	text-align: center;
+	font-size: 0.9em;
+	width: 540px;
+	margin: 20px auto;
+	
+    
+}
+
+#menu ul {
+	list-style-type: none;
+	
+}
+
+#menu ul li {
+	width: 162px;
+	
+}
+
+#menu ul li a {
+	display:inline-table;
+	text-decoration:none;
+	color: #fff;
+	background-color: rgb(29, 62, 116);
+	border: solid 1px #fff;
+	padding: 8px;
+	
+	
+}
+
+#menu ul li ul li a {
+	width: 160px;
+	padding: 8px 0px;
+	border-top-color: transparent;
+	
+	
+}
+
+#menu ul li ul {
+	display: none;
+	
+	
+}
+
+/* PROPIEDADES ESPECÍFICAS */
+
+#menu ul li ul li ul li a.primera {
+	border-top-color: #fff;
+	
+	
+}
+
+#menu ul li.nivel1 { 
+	float: left;
+	margin-right: 1px;
+	
+	
+}
+
+#menu ul li a.nivel2 {
+	color: #000;
+	
+	
+}
+
+#menu ul li a.nivel1, #menu ul li a.nivel2 {
+	display: block;
+	position: relative;
+	
+}
+
+/* PROPIEDAD HOVER */
+
+#menu ul li:hover {
+	position: relative;
+	
+}
+
+#menu ul li a:hover, #menu ul li:hover a.nivel1 {
+	background-color: #6CC;
+	color: #000;
+	position: relative;
+	
+}
+
+#menu ul li:hover  ul.nivel2, #menu ul li a:hover  ul.nivel2{
+	display: block;
+	position: absolute;
+	
+	
+}
+
+#menu ul li ul li a:hover ul.nivel3, #menu ul li ul li:hover ul.nivel3 {
+	display: block;
+	position: absolute;
+	left: 161px;
+	top:0px;
+	
+}
+
+#menu ul li ul li a:hover {
+	border-top-color: #000;
+	position: relative;
+	
+}
+
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 20%;
+  height: 0px;
+  margin-top: 6px;
+  padding: 15px;
+  color: rgb(148, 148, 201);
+}
